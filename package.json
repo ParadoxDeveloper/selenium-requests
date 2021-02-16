@@ -1,8 +1,8 @@
 {
   "name": "selenium-requests",
-  "version": "1.0.1b",
+  "version": "1.0.1c",
   "description": "Selenium based request-like module to avoid TLS fingerprinting.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "npm run start",
     "start": "npx tsc && node test"
