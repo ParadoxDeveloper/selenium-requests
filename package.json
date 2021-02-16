@@ -1,6 +1,6 @@
 {
   "name": "selenium-requests",
-  "version": "1.0.1a",
+  "version": "1.0.1b",
   "description": "Selenium based request-like module to avoid TLS fingerprinting.",
   "main": "index.js",
   "scripts": {
