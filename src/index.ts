@@ -1,5 +1,5 @@
-import * as utils from './src/utils/utils';
-import { createBuilder } from './src/utils/driver';
+import * as utils from './utils/utils';
+import { createBuilder } from './utils/driver';
 import { WebDriver } from 'selenium-webdriver';
 
 export let driver: WebDriver;
@@ -12,7 +12,6 @@ export function createDriver() {
     driver = r;
   })
 }
-
 /**
  * 
  * @param url [string] - The origin url.

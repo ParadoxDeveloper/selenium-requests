@@ -13,6 +13,6 @@
     "skipLibCheck": false,                     
     "forceConsistentCasingInFileNames": true  
   },
-  "include": ["./src", "index.ts"],
+  "include": ["./src", "src/index.ts"],
   "exclude": []
 }
