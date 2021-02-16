@@ -1,0 +1,34 @@
+{
+  "name": "selenium-requests",
+  "version": "1.0.0",
+  "description": "Selenium based request-like module to avoid TLS fingerprinting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParadoxDeveloper/selenium-requests-js.git"
+  },
+  "keywords": [
+    "tls",
+    "tls-fingerprinting",
+    "requests",
+    "http"
+  ],
+  "author": "ParadoxDeveloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ParadoxDeveloper/selenium-requests-js/issues"
+  },
+  "homepage": "https://github.com/ParadoxDeveloper/selenium-requests-js#readme",
+  "dependencies": {
+    "chromedriver": "^88.0.0",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.28",
+    "@types/selenium-webdriver": "^4.0.11",
+    "typescript": "^4.1.5"
+  }
+}
