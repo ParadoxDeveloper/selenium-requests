@@ -4,7 +4,9 @@
   "description": "Selenium based request-like module to avoid TLS fingerprinting.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run start"
+    "test": "npm run start",
+    "start": "npx tsc && node dist",
+    "install": "npm install"
   },
   "repository": {
     "type": "git",
